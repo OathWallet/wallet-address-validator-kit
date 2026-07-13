@@ -1,0 +1,1 @@
+import('../src/index.js').then(m=>{const sample='1BoatSLRHtKNngkdXEeobR76b53LETtpyT';let n=0,t=Date.now();while(Date.now()-t<1000){m.validateAddress(sample,{chain:'bitcoin'});n++}console.log(JSON.stringify({metric:'address validation ops/sec',ops:n},null,2));});

@@ -1,0 +1,28 @@
+name: Dependency Audit
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 3 * * 1'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Node audit
+        run: |
+          if [ -f package-lock.json ]; then npm ci && npm audit --audit-level=moderate; else echo "No package-lock.json"; fi
+      - name: Rust tests as dependency smoke check
+        run: |
+          if [ -f Cargo.toml ]; then cargo test; else echo "No Cargo.toml"; fi
+      - name: Python import/tests smoke check
+        run: |
+          if [ -f pyproject.toml ] && [ -d python/tests ]; then PYTHONPATH=python python -m unittest discover -s python/tests; else echo "No Python tests"; fi

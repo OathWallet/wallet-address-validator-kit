@@ -1,0 +1,24 @@
+{
+  "package": "wallet-address-validator-kit",
+  "version": "0.2.1",
+  "vectors": [
+    {
+      "name": "bitcoin p2pkh",
+      "input": "1BoatSLRHtKNngkdXEeobR76b53LETtpyT",
+      "chain": "bitcoin",
+      "valid": true
+    },
+    {
+      "name": "ethereum checksummed",
+      "input": "0x52908400098527886E0F7030069857D2E4169EE7",
+      "chain": "ethereum",
+      "valid": true
+    },
+    {
+      "name": "solana system program",
+      "input": "11111111111111111111111111111111",
+      "chain": "solana",
+      "valid": true
+    }
+  ]
+}

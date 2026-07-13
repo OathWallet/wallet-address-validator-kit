@@ -1,0 +1,5 @@
+version: 1
+metadata:
+  external_links:
+    documentation: https://devdasx.github.io/wallet-address-validator-kit/
+    security: https://github.com/devdasx/wallet-address-validator-kit/blob/main/SECURITY.md
