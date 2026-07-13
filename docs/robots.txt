@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devdasx.github.io/wallet-address-validator-kit/sitemap.xml

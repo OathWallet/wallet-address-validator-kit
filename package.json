@@ -1,0 +1,60 @@
+{
+  "name": "wallet-address-validator-kit",
+  "version": "0.1.0",
+  "description": "Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet blockchain addresses offline with a CLI and JavaScript API.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "walletaddrcheck": "./bin/walletaddrcheck.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./chains": "./src/chains.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "llms.txt"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "examples": "examples/run-examples.sh"
+  },
+  "keywords": [
+    "wallet-address-validator",
+    "address-validator",
+    "bitcoin-address",
+    "ethereum-address",
+    "solana-address",
+    "dogecoin-address",
+    "litecoin-address",
+    "bip173",
+    "bip350",
+    "eip55",
+    "bech32",
+    "base58check",
+    "hd-wallet",
+    "crypto-wallet",
+    "ai-agent-friendly"
+  ],
+  "author": "devdasx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdasx/wallet-address-validator-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devdasx/wallet-address-validator-kit/issues"
+  },
+  "homepage": "https://devdasx.github.io/wallet-address-validator-kit/",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.2.0",
+    "@scure/base": "^2.2.0",
+    "cashaddrjs": "^0.4.4"
+  }
+}

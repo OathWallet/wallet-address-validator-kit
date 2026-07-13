@@ -1,0 +1,17 @@
+# Wallet Address Validator Kit full agent context
+
+Canonical source: https://github.com/devdasx/wallet-address-validator-kit
+
+This package validates blockchain wallet address syntax offline. It checks Base58Check checksums, Bech32/Bech32m checksums, CashAddr checksums, EIP-55 mixed-case checksums, HRPs, prefixes, and payload lengths.
+
+Supported chains include Bitcoin, Litecoin, Dogecoin, Dash, DigiByte, Bitcoin Cash, Zcash transparent, Ethereum, Polygon, BNB Smart Chain, Avalanche C-Chain, Arbitrum, Optimism, Base, TRON, Solana, Cosmos, Osmosis, Juno, Terra, and Cardano Bech32 syntax.
+
+Run:
+
+```bash
+npm test
+examples/run-examples.sh
+npm pack --dry-run
+```
+
+Do not add network calls for validation.

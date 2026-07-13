@@ -1,0 +1,25 @@
+# Wallet Address Validator Kit
+
+Canonical source: https://github.com/devdasx/wallet-address-validator-kit
+
+Node package and CLI for offline blockchain wallet address validation:
+
+- npm package: `wallet-address-validator-kit`
+- CLI: `walletaddrcheck`
+- API: `validateAddress(value, { chain, strictChecksum })`
+
+Validates Bitcoin Base58Check/Bech32/Bech32m, Ethereum/EVM EIP-55 addresses, Solana base58 32-byte addresses, Dogecoin, Litecoin, Dash, DigiByte, TRON, Zcash transparent, Bitcoin Cash CashAddr, Cosmos-style Bech32 accounts, and Cardano Bech32 HRP syntax.
+
+Validate:
+
+```bash
+npm test
+examples/run-examples.sh
+npm pack --dry-run
+```
+
+Install from GitHub:
+
+```bash
+npm install github:devdasx/wallet-address-validator-kit#0.1.0
+```

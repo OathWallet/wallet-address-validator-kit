@@ -1,0 +1,22 @@
+# Wallet Address Validator Kit
+
+Canonical source: https://github.com/devdasx/wallet-address-validator-kit
+
+Install:
+
+```bash
+npm install github:devdasx/wallet-address-validator-kit#0.1.0
+```
+
+CLI:
+
+```bash
+walletaddrcheck address <address> --chain bitcoin --pretty
+```
+
+API:
+
+```js
+import { validateAddress } from "wallet-address-validator-kit";
+validateAddress("1BoatSLRHtKNngkdXEeobR76b53LETtpyT", { chain: "bitcoin" });
+```
