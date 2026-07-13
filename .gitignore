@@ -3,6 +3,8 @@ npm-debug.log*
 *.tgz
 .DS_Store
 coverage/
+__pycache__/
+*.pyc
 .build/
 .dart_tool/
 .gradle/
