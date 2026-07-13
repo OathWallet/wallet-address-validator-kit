@@ -26,7 +26,7 @@ https://github.com/devdasx/wallet-address-validator-kit
 Install from GitHub:
 
 ```bash
-npm install github:devdasx/wallet-address-validator-kit#0.2.0
+npm install github:devdasx/wallet-address-validator-kit#0.2.1
 ```
 
 When npm registry publishing is configured:
@@ -40,7 +40,7 @@ The npm package is designed to be published from GitHub releases. Add an npm aut
 Use the CLI without installing globally:
 
 ```bash
-npx github:devdasx/wallet-address-validator-kit#0.2.0 walletaddrcheck address 1BoatSLRHtKNngkdXEeobR76b53LETtpyT --chain bitcoin --pretty
+npx github:devdasx/wallet-address-validator-kit#0.2.1 walletaddrcheck address 1BoatSLRHtKNngkdXEeobR76b53LETtpyT --chain bitcoin --pretty
 ```
 
 ## JavaScript API

@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.devdasx"
-version = "0.2.0"
+version = "0.2.1"
 
 kotlin {
     jvmToolchain(17)

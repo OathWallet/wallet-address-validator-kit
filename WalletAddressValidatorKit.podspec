@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "WalletAddressValidatorKit"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
   s.summary = "Offline blockchain wallet address validation for Bitcoin, Ethereum, Solana, Dogecoin, Litecoin, and more."
   s.homepage = "https://github.com/devdasx/wallet-address-validator-kit"
   s.license = { :type => "MIT", :file => "LICENSE" }

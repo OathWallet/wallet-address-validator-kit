@@ -1,6 +1,6 @@
 {
   "name": "wallet-address-validator-kit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet blockchain addresses offline with a CLI and JavaScript API.",
   "type": "module",
   "main": "./src/index.js",
