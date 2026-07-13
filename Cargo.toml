@@ -1,0 +1,10 @@
+[package]
+name = "wallet-address-validator-kit"
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+description = "Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet blockchain addresses offline."
+repository = "https://github.com/devdasx/wallet-address-validator-kit"
+
+[dependencies]
+sha2 = "0.10"

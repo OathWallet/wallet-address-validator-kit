@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallet-address-validator-kit"
+version = "0.2.0"
+description = "Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet blockchain addresses offline."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "devdasx" }]
+keywords = ["bitcoin", "ethereum", "solana", "dogecoin", "litecoin", "address-validator", "crypto-wallet"]
+
+[tool.setuptools.packages.find]
+where = ["python"]

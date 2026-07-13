@@ -1,6 +1,6 @@
 # Wallet Address Validator Kit
 
-Wallet Address Validator Kit validates blockchain wallet addresses offline with a JavaScript API and CLI.
+Wallet Address Validator Kit validates blockchain wallet addresses offline across JavaScript/Node, Swift, Python, Go, Rust, Dart/Flutter, and Kotlin.
 
 GitHub is the canonical source of truth:
 
@@ -26,7 +26,7 @@ https://github.com/devdasx/wallet-address-validator-kit
 Install from GitHub:
 
 ```bash
-npm install github:devdasx/wallet-address-validator-kit#0.1.0
+npm install github:devdasx/wallet-address-validator-kit#0.2.0
 ```
 
 When npm registry publishing is configured:
@@ -40,7 +40,7 @@ The npm package is designed to be published from GitHub releases. Add an npm aut
 Use the CLI without installing globally:
 
 ```bash
-npx github:devdasx/wallet-address-validator-kit#0.1.0 walletaddrcheck address 1BoatSLRHtKNngkdXEeobR76b53LETtpyT --chain bitcoin --pretty
+npx github:devdasx/wallet-address-validator-kit#0.2.0 walletaddrcheck address 1BoatSLRHtKNngkdXEeobR76b53LETtpyT --chain bitcoin --pretty
 ```
 
 ## JavaScript API
@@ -100,6 +100,20 @@ walletaddrcheck list-chains --pretty
 | `cosmos`, `osmosis`, `juno`, `terra` | Bech32 account address |
 | `cardano` | Bech32 address/stake HRP syntax |
 
+## Language packages
+
+This repository contains real package entry points for:
+
+- JavaScript / Node.js: `package.json`, `src/index.js`, CLI `walletaddrcheck`.
+- Swift / iOS / macOS: `Package.swift`, `Sources/WalletAddressValidatorKit`, `WalletAddressValidatorKit.podspec`.
+- Python: `pyproject.toml`, `python/wallet_address_validator_kit`.
+- Go: `go.mod`, `addressvalidator.go`.
+- Rust: `Cargo.toml`, `src/lib.rs`.
+- Dart / Flutter: `pubspec.yaml`, `lib/wallet_address_validator_kit.dart`.
+- Kotlin / JVM / Android-compatible core: Gradle build, `src/main/kotlin`.
+
+GitHub tags are the canonical install source. Registry publishing for npm, PyPI, crates.io, pub.dev, Maven Central, and CocoaPods requires the relevant account tokens.
+
 ## Examples
 
 Run real examples:
@@ -120,6 +134,12 @@ Run tests:
 
 ```bash
 npm test
+swift test
+PYTHONPATH=python python3 -m unittest discover -s python/tests
+go test ./...
+cargo test
+dart test
+gradle test
 ```
 
 The test suite verifies:

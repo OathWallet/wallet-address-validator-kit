@@ -3,3 +3,10 @@ npm-debug.log*
 *.tgz
 .DS_Store
 coverage/
+.build/
+.dart_tool/
+.gradle/
+build/
+target/
+Cargo.lock
+pubspec.lock
