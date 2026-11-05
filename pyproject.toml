@@ -9,7 +9,7 @@ description = "Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet 
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
-authors = [{ name = "devdasx" }]
+authors = [{ name = "OathWallet" }]
 keywords = ["bitcoin", "ethereum", "solana", "dogecoin", "litecoin", "address-validator", "crypto-wallet"]
 
 [tool.setuptools.packages.find]
