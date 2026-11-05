@@ -1,7 +1,7 @@
 name: wallet_address_validator_kit
 version: 0.2.1
 description: Validate Bitcoin Ethereum Solana Dogecoin Litecoin and HD wallet blockchain addresses offline.
-repository: https://github.com/devdasx/wallet-address-validator-kit
+repository: https://github.com/OathWallet/wallet-address-validator-kit
 environment:
   sdk: ^3.3.0
 dependencies:

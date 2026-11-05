@@ -1,6 +1,6 @@
 # Wallet Address Validator Kit full agent context
 
-Canonical source: https://github.com/devdasx/wallet-address-validator-kit
+Canonical source: https://github.com/OathWallet/wallet-address-validator-kit
 
 This package validates blockchain wallet address syntax offline. It checks Base58Check checksums, Bech32/Bech32m checksums, CashAddr checksums, EIP-55 mixed-case checksums, HRPs, prefixes, and payload lengths.
 

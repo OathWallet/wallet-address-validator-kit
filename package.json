@@ -43,12 +43,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devdasx/wallet-address-validator-kit.git"
+    "url": "git+https://github.com/OathWallet/wallet-address-validator-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/devdasx/wallet-address-validator-kit/issues"
+    "url": "https://github.com/OathWallet/wallet-address-validator-kit/issues"
   },
-  "homepage": "https://devdasx.github.io/wallet-address-validator-kit/",
+  "homepage": "https://oathwallet.github.io/wallet-address-validator-kit/",
   "engines": {
     "node": ">=20"
   },

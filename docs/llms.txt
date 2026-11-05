@@ -1,11 +1,11 @@
 # Wallet Address Validator Kit
 
-Canonical source: https://github.com/devdasx/wallet-address-validator-kit
+Canonical source: https://github.com/OathWallet/wallet-address-validator-kit
 
 Install:
 
 ```bash
-npm install github:devdasx/wallet-address-validator-kit#0.2.1
+npm install github:OathWallet/wallet-address-validator-kit#0.2.1
 ```
 
 CLI:

@@ -1,6 +1,6 @@
 version: 1
 external_links:
-  documentation: https://devdasx.github.io/wallet-address-validator-kit/
+  documentation: https://oathwallet.github.io/wallet-address-validator-kit/
 builder:
   configs:
     - documentation_targets:
